@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smile-father {
+  background-color: #FCB82F;
+  margin-top: 20px;
+  display: block;
+  border: 20px solid #F7A830;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+
+  border-radius: 50%;
+  width: 150px;
+  height: 70px;
+  background-color: #83491F;
+  z-index: 1;
+}
+
+.eye1 {
+  top: 50%;
+  right: 15%;
+}
+
+.eye2 {
+  top: 50%;
+  left: 15%;
+}
+
+.eye-shadow {
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  width: 160px;
+  height: 60px;
+  background-color: #FCB82F;
+}
+
+.eye-shadow1 {
+  top: 47%;
+  right: 15%;
+}
+
+.eye-shadow2 {
+  top: 47%;
+  left: 15%;
+}
+
+.mouth {
+  position: absolute;
+  top: 75%;
+  left: 39%;
+  background-color: #83491F;
+  border-radius: 15px;
+  width: 123px;
+  height: 30px;
+}
+
+.tears {
+  position: absolute;
+  width: 70px;
+  height: 250px;
+  background-color: #99BAE3;
+
+}
+
+.tears1 {
+  top: 58%;
+  left: 16%;
+}
+
+.tears2 {
+  top: 58%;
+  right: 16%;
+}
+
+.brow {
+  border-radius: 28% 72% 70% 30% / 30% 30% 70% 70%;
+  background-color: #83491F;
+  position: absolute;
+  width: 202px;
+  height: 80px;
+}
+
+.brow1 {
+  left: 10%;
+  top: 30%;
+}
+
+.brow2 {
+  border-radius: 76% 24% 21% 79% / 30% 30% 70% 70%;
+  right: 10%;
+  top: 30%;
+}
+
+.brow-shadow1,
+.brow-shadow2 {
+  border-radius: 28% 72% 70% 30% / 30% 30% 70% 70%;
+  background-color: #FCB82F;
+  position: absolute;
+  width: 202px;
+  height: 80px;
+}
+
+.brow-shadow1 {
+  left: 10%;
+  top: 26%;
+}
+
+.brow-shadow2 {
+  border-radius: 76% 24% 21% 79% / 30% 30% 70% 70%;
+  right: 10%;
+  top: 26%;
+}
+
+.brow-shadow3,
+.brow-shadow4 {
+  width: 60px;
+  height: 70px;
+  background-color: #FCB82F;
+  position: absolute;
+  z-index: 2;
+}
+
+.brow-shadow3 {
+  top: 33%;
+  left: 83%;
+}
+
+.brow-shadow4 {
+  top: 32%;
+  right: 83%;
+}
+
+.smile-father:hover .tears {
+
+  background-color: #FCB82F;
+
+}
+
